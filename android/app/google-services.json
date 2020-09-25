@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1049622713702",
+    "firebase_url": "https://magic-bullet-bfd5e.firebaseio.com",
+    "project_id": "magic-bullet-bfd5e",
+    "storage_bucket": "magic-bullet-bfd5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049622713702:android:c69d5362f574ec8f41a4a7",
+        "android_client_info": {
+          "package_name": "magic_bullet.dj.magic_bullet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049622713702-1aklg0pccf7ra47qi5tsr31tu93oon12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4ESMLLBkISQRegFN06cv0awrcquH1sEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049622713702-1aklg0pccf7ra47qi5tsr31tu93oon12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
