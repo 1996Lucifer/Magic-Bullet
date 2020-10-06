@@ -21,7 +21,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
-          scaffoldBackgroundColor: whiteColor),
+          scaffoldBackgroundColor: whiteColor,
+          ),
       home: AnimatedSplash(
         imagePath: 'assets/images/logo.jpg',
         home: Dashboard(),

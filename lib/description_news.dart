@@ -42,7 +42,7 @@ class _NewsDescriptionState extends State<NewsDescription> {
                           fontSize: 25, fontWeight: FontWeight.bold))),
               SizedBox(
                   height: preferredHeight * 0.3,
-                  width: preferredWidth ,
+                  width: preferredWidth,
                   child: _listImages.length == 0
                       ? Padding(
                           padding: EdgeInsets.all(10),
@@ -55,11 +55,11 @@ class _NewsDescriptionState extends State<NewsDescription> {
                               ))
                           : CarouselSlider(
                               options: CarouselOptions(
-                                autoPlay: false,
+                                autoPlay: true,
                                 autoPlayInterval: Duration(seconds: 2),
                                 autoPlayAnimationDuration:
                                     Duration(milliseconds: 800),
-                                autoPlayCurve: Curves.fastOutSlowIn,
+                                autoPlayCurve: Curves.easeIn,
                                 enlargeCenterPage: true,
                               ),
                               items: _listImages.map((i) {
@@ -81,9 +81,21 @@ class _NewsDescriptionState extends State<NewsDescription> {
               Padding(
                 padding: EdgeInsets.only(top: 10),
               ),
-              Text(widget.newsDescription["description"],
-                  style:
-                      TextStyle(fontSize: 20, fontWeight: FontWeight.normal)),
+              // Align(
+              //   alignment: Alignment.topCenter,
+              //     child: , right: 5
+              Padding(
+                  padding: EdgeInsets.only(left: 10, right: 10),
+                  child: Text(widget.newsDescription["description"],
+                      textAlign: TextAlign.justify,
+                      style: TextStyle(
+                        height: 1.7,
+                        // wordSpacing: 7,
+                        fontSize: 20,
+                        fontWeight: FontWeight.normal,
+                      )
+                      // )
+                      )),
               Padding(
                 padding: EdgeInsets.only(top: 10),
               ),
